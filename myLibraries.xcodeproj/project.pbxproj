@@ -15,6 +15,10 @@
 		B52EB1741CAF3D2400236D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52EB1721CAF3D2400236D84 /* LaunchScreen.storyboard */; };
 		B52EB17F1CAF3D2400236D84 /* myLibrariesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B52EB17E1CAF3D2400236D84 /* myLibrariesTests.m */; };
 		B52EB18A1CAF3D2400236D84 /* myLibrariesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B52EB1891CAF3D2400236D84 /* myLibrariesUITests.m */; };
+		B52EB19D1CAF3DD800236D84 /* BLImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B52EB19A1CAF3DD800236D84 /* BLImageButton.m */; };
+		B52EB19E1CAF3DD800236D84 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B52EB19B1CAF3DD800236D84 /* placeholder.png */; };
+		B52EB19F1CAF3DD800236D84 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = B52EB19C1CAF3DD800236D84 /* tick.png */; };
+		B52EB1A21CAF3DE100236D84 /* BLHyperTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B52EB1A11CAF3DE100236D84 /* BLHyperTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		B52EB1851CAF3D2400236D84 /* myLibrariesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myLibrariesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52EB1891CAF3D2400236D84 /* myLibrariesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myLibrariesUITests.m; sourceTree = "<group>"; };
 		B52EB18B1CAF3D2400236D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B52EB1991CAF3DD800236D84 /* BLImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLImageButton.h; path = BLImageButton/BLImageButton.h; sourceTree = "<group>"; };
+		B52EB19A1CAF3DD800236D84 /* BLImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLImageButton.m; path = BLImageButton/BLImageButton.m; sourceTree = "<group>"; };
+		B52EB19B1CAF3DD800236D84 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = BLImageButton/placeholder.png; sourceTree = "<group>"; };
+		B52EB19C1CAF3DD800236D84 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tick.png; path = BLImageButton/tick.png; sourceTree = "<group>"; };
+		B52EB1A01CAF3DE100236D84 /* BLHyperTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLHyperTextField.h; path = BLHyperTextField/BLHyperTextField.h; sourceTree = "<group>"; };
+		B52EB1A11CAF3DE100236D84 /* BLHyperTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLHyperTextField.m; path = BLHyperTextField/BLHyperTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,8 @@
 		B52EB1631CAF3D2400236D84 /* myLibraries */ = {
 			isa = PBXGroup;
 			children = (
+				B52EB1981CAF3D7500236D84 /* BLHyperTextField */,
+				B52EB1971CAF3D3200236D84 /* BLImageButton */,
 				B52EB1671CAF3D2400236D84 /* AppDelegate.h */,
 				B52EB1681CAF3D2400236D84 /* AppDelegate.m */,
 				B52EB16A1CAF3D2400236D84 /* ViewController.h */,
@@ -138,6 +150,26 @@
 				B52EB18B1CAF3D2400236D84 /* Info.plist */,
 			);
 			path = myLibrariesUITests;
+			sourceTree = "<group>";
+		};
+		B52EB1971CAF3D3200236D84 /* BLImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				B52EB1991CAF3DD800236D84 /* BLImageButton.h */,
+				B52EB19A1CAF3DD800236D84 /* BLImageButton.m */,
+				B52EB19B1CAF3DD800236D84 /* placeholder.png */,
+				B52EB19C1CAF3DD800236D84 /* tick.png */,
+			);
+			name = BLImageButton;
+			sourceTree = "<group>";
+		};
+		B52EB1981CAF3D7500236D84 /* BLHyperTextField */ = {
+			isa = PBXGroup;
+			children = (
+				B52EB1A01CAF3DE100236D84 /* BLHyperTextField.h */,
+				B52EB1A11CAF3DE100236D84 /* BLHyperTextField.m */,
+			);
+			name = BLHyperTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B52EB1741CAF3D2400236D84 /* LaunchScreen.storyboard in Resources */,
+				B52EB19F1CAF3DD800236D84 /* tick.png in Resources */,
+				B52EB19E1CAF3DD800236D84 /* placeholder.png in Resources */,
 				B52EB1711CAF3D2400236D84 /* Assets.xcassets in Resources */,
 				B52EB16F1CAF3D2400236D84 /* Main.storyboard in Resources */,
 			);
@@ -273,6 +307,8 @@
 				B52EB16C1CAF3D2400236D84 /* ViewController.m in Sources */,
 				B52EB1691CAF3D2400236D84 /* AppDelegate.m in Sources */,
 				B52EB1661CAF3D2400236D84 /* main.m in Sources */,
+				B52EB1A21CAF3DE100236D84 /* BLHyperTextField.m in Sources */,
+				B52EB19D1CAF3DD800236D84 /* BLImageButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
