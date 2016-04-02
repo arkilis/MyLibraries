@@ -1,13 +1,16 @@
-# MyLibraries
+
+[![Build Status](https://travis-ci.org/arkilis/MyLibraries.svg?branch=master)](https://travis-ci.org/arkilis/MyLibraries)
+
+## MyLibraries
 
 ---
 
-## Indtroduction
+### Indtroduction
 
 This is a colleciton of code that frequently used and will be turned into a cocoapod lib
 
 
-## BLImageButton
+### BLImageButton
 
 Will let you be able to creeat a button with an image in the front.
 
